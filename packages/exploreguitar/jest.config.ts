@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'ui',
+  displayName: 'exploreguitar',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/packages/ui',
+  coverageDirectory: '../../coverage/packages/exploreguitar',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
