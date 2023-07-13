@@ -15,8 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@exploreguitar/fretboard": ["packages/fretboard/src/index.ts"],
-      "@exploreguitar/ui": ["packages/ui/src/index.ts"]
+      "@exploreguitar/fretboard": ["packages/fretboard/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
