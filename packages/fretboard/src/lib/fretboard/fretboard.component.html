@@ -1,1 +1,5 @@
-<p>fretboard works!</p>
+<div id="fretboard" class="m-8 h-56 bg-gray-700">
+  <ng-container *ngFor="let string of strings">
+    <exploreguitar-string [root]="string"></exploreguitar-string>
+  </ng-container>
+</div>
